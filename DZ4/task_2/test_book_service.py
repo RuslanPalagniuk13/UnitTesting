@@ -3,6 +3,11 @@ from unittest.mock import Mock
 
 from book_service import BookService
 
+# Звдвча 2:
+# У вас есть класс BookService, который использует интерфейс BookRepository
+# для получения информации о книгах из базы данных.
+# Ваша задача написать unit-тесты для BookService,
+# используя Mockito для создания мок-объекта BookRepository.
 
 class TestBookService(unittest.TestCase):
     def setUp(self) -> None:
